@@ -144,11 +144,11 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   border-style: none;
-  background-color: transparent;
+  background-color: #1abc9c;
   cursor: pointer;
 }
 .slider-button:hover {
-  background-color: #1abc9c;
+  background-color: #4ec6ab;
 }
 .prev {
   float: left;
@@ -207,7 +207,8 @@ img {
   font-weight: 900;
   float: left;
   width: 78.431372549%;
-  padding-left: 12px;
+  padding: 4px 0 4px 12px;
+  box-sizing: border-box;
 }
 .list-item-price {
   font-size: 18px;
@@ -219,6 +220,8 @@ img {
   width: 21.568627451%;
   float: right;
   background-color: hsla(0, 0%, 20%, 0.5);
+  box-sizing: border-box;
+  padding: 4px 0;
 }
 .list-item-img-wrapper {
   position: relative;
