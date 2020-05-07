@@ -116,10 +116,9 @@ img {
   color: #ffffff;
   font-family: "Roboto";
   text-transform: uppercase;
-  top: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  margin-top: 200px;
+  transform: translate(-50%, -50%);
 }
 .slider-title {
   font-size: 56px;
@@ -133,10 +132,9 @@ img {
 .slider-button-wrapper {
   width: 1110px;
   position: absolute;
-  top: 0;
+  top: 050%;
   left: 50%;
-  transform: translateX(-50%);
-  margin-top: 225px;
+  transform: translate(-50%, -50%);
 }
 .slider-button {
   width: 104px;
